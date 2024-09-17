@@ -3,7 +3,8 @@
 from __init__ import CONN, CURSOR
 from department import Department
 from employee import Employee
-import ipdb
+from faker import Faker
+# import ipdb
 
 
 def reset_database():
@@ -24,4 +25,4 @@ def reset_database():
 
 
 reset_database()
-ipdb.set_trace()
+# ipdb.set_trace()
